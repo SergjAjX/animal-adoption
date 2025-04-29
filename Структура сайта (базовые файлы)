@@ -1,9 +1,0 @@
-animal-adoption/
-├─ index.html          # Главная страница
-├─ animals.html        # Список животных
-├─ form.html           # Форма для пристройства
-├─ css/
-│  └─ style.css        # Стили
-├─ js/
-│  └─ script.js        # Скрипты
-└─ img/                # Папка для фото животных
