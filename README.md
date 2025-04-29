@@ -1,1 +1,1 @@
-# animal-adoption.io
+# animal-adoption
