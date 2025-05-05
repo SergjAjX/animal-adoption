@@ -9,3 +9,32 @@ body {
 .card:hover {
     transform: translateY(-5px);
 }
+/* Галерея */
+.gallery-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Эффект при наведении */
+.card:hover .gallery-image {
+    transform: scale(1.05);
+}
+
+/* Адаптивность карточек */
+@media (max-width: 768px) {
+    .gallery-image {
+        height: 200px;
+    }
+    
+    .card-title {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-image {
+        height: 180px;
+    }
+}
